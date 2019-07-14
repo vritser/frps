@@ -1,6 +1,6 @@
 FROM arm64v8/alpine
 
-ENV FRPS_VERSION=0.27.0
+ENV FRPS_VERSION=0.22.0
 EXPOSE 7000
 
 RUN FRPS_TAR=frp_${FRPS_VERSION}_linux_arm64.tar.gz && \
